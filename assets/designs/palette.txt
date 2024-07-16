@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/0b273f-c4001a-658090-ffffff-3d253c */
+
+- Tailwind
+
+{ 'prussian_blue': { DEFAULT: '#0B273F', 100: '#02080d', 200: '#05101a', 300: '#071827', 400: '#092034', 500: '#0b273f', 600: '#18558b', 700: '#2583d4', 800: '#6cace5', 900: '#b5d6f2' }, 'cornell_red': { DEFAULT: '#C4001A', 100: '#270005', 200: '#4e000a', 300: '#740010', 400: '#9b0015', 500: '#c4001a', 600: '#ff0224', 700: '#ff415b', 800: '#ff8191', 900: '#ffc0c8' }, 'slate_gray': { DEFAULT: '#658090', 100: '#141a1d', 200: '#28333a', 300: '#3c4d57', 400: '#506774', 500: '#658090', 600: '#829aa8', 700: '#a1b3be', 800: '#c0cdd4', 900: '#e0e6e9' }, 'white': { DEFAULT: '#FFFFFF', 100: '#333333', 200: '#666666', 300: '#999999', 400: '#cccccc', 500: '#ffffff', 600: '#ffffff', 700: '#ffffff', 800: '#ffffff', 900: '#ffffff' }, 'dark_purple': { DEFAULT: '#3D253C', 100: '#0c070c', 200: '#180f18', 300: '#241623', 400: '#301d2f', 500: '#3d253c', 600: '#6f446d', 700: '#a1659e', 800: '#c099be', 900: '#e0ccdf' } }
+
+- CSV
+
+0B273F,C4001A,658090,FFFFFF,3D253C
+
+- With #
+
+#0B273F, #C4001A, #658090, #FFFFFF, #3D253C
+
+- Array
+
+["0B273F","C4001A","658090","FFFFFF","3D253C"]
+
+- Object
+
+{"Prussian blue":"0B273F","Cornell red":"C4001A","Slate gray":"658090","White":"FFFFFF","Dark purple":"3D253C"}
+
+- Extended Array
+
+[{"name":"Prussian blue","hex":"0B273F","rgb":[11,39,63],"cmyk":[83,38,0,75],"hsb":[208,83,25],"hsl":[208,70,15],"lab":[15,-1,-18]},{"name":"Cornell red","hex":"C4001A","rgb":[196,0,26],"cmyk":[0,100,87,23],"hsb":[352,100,77],"hsl":[352,100,38],"lab":[41,66,45]},{"name":"Slate gray","hex":"658090","rgb":[101,128,144],"cmyk":[30,11,0,44],"hsb":[202,30,56],"hsl":[202,18,48],"lab":[52,-6,-12]},{"name":"White","hex":"FFFFFF","rgb":[255,255,255],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]},{"name":"Dark purple","hex":"3D253C","rgb":[61,37,60],"cmyk":[0,39,2,76],"hsb":[303,39,24],"hsl":[303,24,19],"lab":[19,16,-10]}]
+
+- XML
+
+<palette>
+  <color name="Prussian blue" hex="0B273F" r="11" g="39" b="63" />
+  <color name="Cornell red" hex="C4001A" r="196" g="0" b="26" />
+  <color name="Slate gray" hex="658090" r="101" g="128" b="144" />
+  <color name="White" hex="FFFFFF" r="255" g="255" b="255" />
+  <color name="Dark purple" hex="3D253C" r="61" g="37" b="60" />
+</palette>

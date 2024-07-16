@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+
+textarea, input {
+  resize: none;
+  outline: none;
+}
+
+input.border-b,
+textarea.border-b {
+  border-bottom: 1px solid #e5e7eb; /* Adjust color as needed */
+}
+
+main {
+  height: 613.63px !important;
+  overflow: scroll;
+}
+
+#nav {
+  font-weight: 800;
+}
+
+#form {
+  max-height: 600px !important;
+  overflow: scroll !important;
+}
+
+.media-item {
+  max-width: 604px;
+}
+
+.media-item > div {
+  width: 250px !important;
+  height: 250px !important;
+  border-radius: 10px !important;
+}
+
+.bg-prussian-blue {
+  background-color: #0b273f;
+}
+.bg-light-blue {
+  background-color: #133a5cab;
+}
+.text-prussian-blue {
+  color: #06223b;
+}
+.bg-cornell-red {
+  background-color: #c4001a;
+}
+.text-cornell-red {
+  color: #c4001a;
+}
+.bg-slate-gray {
+  background-color: #658090;
+}
+.text-slate-gray {
+  color: #658090;
+}
+.bg-dark-purple {
+  background-color: #3d253c;
+}
+.text-dark-purple {
+  color: #3d253c;
+}
+.hover\:bg-white:hover {
+  background-color: #ffffff;
+}
+.hover\:text-cornell-red:hover {
+  color: #c4001a;
+}
+.hover\:no-underline:hover {
+  text-decoration: none;
+}
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.link-text {
+  overflow: hidden;
+  max-width: 0;
+  white-space: nowrap;
+  transition: max-width 0.4s ease-in-out;
+}
+
+.nav-item:hover .icon {
+  transform: translateX(-24px);
+}
+
+.nav-item:hover .link-text {
+  max-width: 150px;
+}
